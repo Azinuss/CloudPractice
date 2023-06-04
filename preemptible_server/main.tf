@@ -2,7 +2,7 @@
 module "keypair" {
   source             = "./modules/keypair"
   keypair_name       = "keypair-tf"
-  keypair_public_key = file("~/.ssh/id_rsa.pub")
+  keypair_public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC9dnZV5CSpI+ynaiGmqUE6ej4PtNjsByP0emnlKCBQ+0jU3FWU7R1loTbyrOEjjPe4//KygpUCx5HZTDfy4zJzg1Ukb3bbsT1AW/FcQPiwacWBkBH9nmyfLEJETfwZDeBSTrUem1LdMMLDmn6T0nmGnOoI1R0iEHr5qKeKEpQtcPIyG1uVYrvnr8a+BW0EfoYKOfmr7f5th1r/iRT3UXlBid9H3tWT7ORupgligRhTkLX58oa2J+vfoqvTWJbymYZIZppUeLdktbRWwePKkgCMfaNV/XI1oV3j/06xJ1x64zHW0KKKhT9aVG/FKgr6bnN2LemyY+f4mdgkV88GeU/vCuuQXlF3ZXkxPqlwc/6E4tJOI9d9PoDl0XF3G/35drX+XrfqWLzk6NWnwlB067ectRPB4TOZ4vNy+h2GcgWlv+YEii7GJ7HhLQovHXA7DVZRoluRf8wSYJdTFoWgWL4TeaTyChhGimt5IgvZu7f5MMvw3b5I3Wo2rKJ5YDUaips= Алексей@DESKTOP-1I1I8P8"
   region             = var.region
 }
 
